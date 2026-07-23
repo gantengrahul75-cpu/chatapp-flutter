@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "6710376880",
+    "project_id": "intel-almun-f22cf",
+    "storage_bucket": "intel-almun-f22cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6710376880:android:bf8932f116b62052333e75",
+        "android_client_info": {
+          "package_name": "com.intelalmun.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDknIQAaRmaNeWeJmk4gcfRZfors5m28iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
