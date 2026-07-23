@@ -1,0 +1,75 @@
+name: chatapp
+description: "A professional chat application built with Flutter, Firebase, and Riverpod. Clean architecture with modern UI/UX design."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.10.0
+  cloud_firestore: ^4.13.0
+  firebase_messaging: ^14.6.0
+  firebase_storage: ^11.2.0
+
+  # State Management
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+  riverpod_generator: ^2.3.0
+
+  # UI & Design
+  flutter_screenutil: ^5.9.0
+  cached_network_image: ^3.3.0
+  skeletons: ^0.0.20
+
+  # Navigation
+  go_router: ^11.1.0
+
+  # Utilities
+  intl: ^0.19.0
+  shared_preferences: ^2.2.0
+  logger: ^2.0.1
+  dio: ^5.3.0
+  equatable: ^2.0.5
+
+  # Validation
+  form_validator: ^1.1.0
+
+  # Animation
+  lottie: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  
+  # Code Generation
+  build_runner: ^2.4.0
+  riverpod_generator: ^2.3.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
